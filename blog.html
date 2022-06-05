@@ -4,4 +4,13 @@ title: Sarthak | Blog
 heading: Blog
 ---
 
-Blog coming soon ..
+<div class="blog-content">
+<ul style="list-style: none;">
+    {% for post in site.posts %}
+      <li>
+        <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
+        {{ post.excerpt }}
+      </li>
+    {% endfor %}
+  </ul>
+</div>
