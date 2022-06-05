@@ -1,0 +1,119 @@
+body {
+    max-width: 960px;
+    margin: auto;
+    background-color:white;
+    color: #212121;
+}
+
+.header{
+    position:fixed;top:0;right:0;left:0;
+    max-width: 960px;
+    margin: auto;
+    background-color: white;
+    opacity: 0.97;
+    border-width: 0px 0px 1px 0px; 
+    border-style: solid;
+    border-color: #dcdcdc;
+    color: #212121;
+}
+.header a{
+    text-decoration: none;
+    color: #212121;
+}
+.header td{
+    padding: 5px;
+}
+.pagecontent{
+    padding-top: 50px;
+    padding-bottom: 10px;
+}
+
+.contact{
+    margin-top: 10%;
+    text-align: center;
+}
+.contact a{
+    text-decoration: none;
+    color: blue;
+}
+.contact a:hover{
+    text-decoration: underline;
+}
+
+li{
+    margin: 1% 0%
+}
+.content{
+    text-align: justify; text-justify: inter-word;
+    padding: auto;
+    margin-bottom: 2%;
+}
+.content a{
+    text-decoration: none;
+    color: blue;
+    
+}
+.content a:hover{
+    text-decoration: underline; 
+}
+
+
+.footer{
+    background-color: #212121;
+    color: #adadad;
+    font-family: serif;
+    margin: auto;
+    text-align: center;
+    padding: 1px;
+    position:fixed;bottom:0;left:0;right:0;height:30px;
+    font-size: small;
+
+}
+
+.footer a {
+    color: #FAFAFA;
+    text-decoration: none;
+}
+
+.profile-pic{
+    width: 250px; height: 250px; 
+    overflow: hidden; 
+    border-radius: 50%;
+    margin: auto;  
+}
+.profile-pic img { width: 100%; height: auto; }
+
+
+.project-card{
+    max-width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+.project-card table{
+    width: 100%;
+    margin-bottom: 5%;
+    padding-bottom: 5%;
+    border-style: solid;
+    border-color: #dcdcdc;
+    border-width: 0px 0px 1px 0px;
+}
+.project-card td{
+    text-align: justify;
+    vertical-align: top;
+}
+.project-card img{
+    margin: auto;
+    width: 100%;
+    height: auto;
+}
+.project-card video{
+    margin: auto;
+    width: 100%;
+    height: auto;
+}
+.project-card a{
+    text-decoration: none;
+    color: blue;
+}
