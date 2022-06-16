@@ -1,0 +1,195 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Medium Length Professional CV
+% LaTeX Template
+% Version 2.0 (8/5/13)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Rishi Shah 
+%
+% Important note:
+% This template requires the resume.cls file to be in the same directory as the
+% .tex file. The resume.cls file provides the resume style used for structuring the
+% document.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass{resume} % Use the custom resume.cls style
+\usepackage{hyperref}
+\usepackage{xcolor}
+
+\usepackage[left=0.75in,top=0.6in,right=0.75in,bottom=0.6in]{geometry} % Document margins
+\newcommand{\tab}[1]{\hspace{.2667\textwidth}\rlap{#1}}
+\newcommand{\itab}[1]{\hspace{0em}\rlap{#1}}
+\name{Sarthak Kapoor}
+
+\address{sarthak.kapoor@rwth-aachen.de | \url{https://ka-sarthak.github.io/}}
+
+\begin{document}
+
+%----------------------------------------------------------------------------------------
+%	EDUCATION SECTION
+%----------------------------------------------------------------------------------------
+%\begin{rSection}{Objective}
+%Self-motivated master's student seeking experience in the field of %process simulation and optimization and novel applications of Machine %Learning techniques.
+%\end{rSection}
+%\begin{rSection}{Summary}
+%Self-driven MSc student with experience in computational materials modeling, machine learning and data modeling. Clawing uphill in the field of numerical computation, linear algebra, statistics, ML algorithms and its frameworks, along with a growing implementation experience.
+
+%\end{rSection}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{rSection}{Education}
+{\bf RWTH Aachen University} \hfill {\em 2020.10 - Present}\\
+MSc Simulation Sciences \hfill {Grade: 2.3 (German scale)}
+
+{\bf Machine Learning Summer School, Krakow} \hfill {\em 2022.06} \\
+ML, Computer Vision and Computational Neuroscience\hfill {Full scholarship}
+
+{\bf National Institute of Technology, Warangal} \hfill {\em 2016.08 - 2020.08} \\
+BTech Metallurgical and Materials Engineering\hfill {CGPA: 9.13 (10)}\\
+\emph{Gold Medallist}
+
+%{\bf Sacred Heart Convent School, Ludhiana} \hfill {\em 2015.03 - 2016.05}\\
+%Grade 12 CBSE (Physics, Chemistry, Mathematics, English) \hfill {Percentage: 95.4 }
+%\emph{Batch Rank: 3}
+
+%{\bf DAV Public School, Ludhiana} \hfill {\em 2015.03 - 2016.05}\\
+%Grade 10 CBSE \hfill {CGPA: 10}\\
+%\emph{Batch Rank: 1}
+
+\end{rSection}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{rSection}{coursework and skills}
+\begin{itemize}
+  \item Machine Learning, Computer Vision (object detection/classification/tracking), Automatic Differentiation, Data Analytics, Parallel Computing, Fast Iterative Solvers
+  \item C/C++, Python, TensorFlow, PyTorch, NumPy, SciPy, JAX, Pandas, MATLAB, Java, HTML, Javascript, MySQL, {\LaTeX}, CAD Modeling, 
+  \item English, Hindi (Bilingual proficiency)
+\end{itemize}
+\end{rSection}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{rSection}{Experience}
+
+{\bf Solving Solid Mechanics with Machine Learning} \hfill {\em 2021.05 - Present}\\
+{\em Aachen Institute for Advanced Study in Computational Engineering Science (AICES)}\\
+As a research assistant under Prof. Bob Svendsen, I am implementing learning-based models in the field of solid mechanics. We are working with encoder-decoder CNNs and Fourier neural operators to predict stress distributions with material properties as input. The training data comes from DAMASK spectral solver and the networks have been implemented using TensorFlow and PyTorch frameworks. The work is being done in collaboration with MPIE Düsseldorf with me as the principal investigator.
+
+{\bf Detecting gravity waves in atmospheric temperature data} \hfill {\em2022.06}\\
+{\em Applied and Computational Mathematics, RWTH Aachen}\\
+As a part of week-long study excursion, I worked with an interdisciplinary team of master students on developing an algorithm to detect gravity wave events which are essential for reliable weather predictions. These waves were modelled as Morlet wavelets at given point, whose parameters were found using FFTs and non-convex optimization. The project was supervised by Dr. Joern Ungermann from Forschungszentrum Jülich and code was written in Python using NumPy, SciPy, JAX libraries.
+
+{\bf Tracking local optima in dynamic systems}\hfill {\em 2021.10 - 2022.02}\\
+{\em Software and Tools for Computational Engineering, RWTH Aachen}\\
+Supervised by Prof. Uwe Naumann from Informatik-12, this semester-long project focused on building local-optima-tracking software for dynamic time-dependent functions. It was build on a global optima search routine developed by Dr. Jens Deussen and provides a switching criterion between global and local search.  The software in written in C++ using dco/c++ library for automatic differentiation. 
+
+{\bf Fast iterative solvers}\hfill {\em 2021.04 - 2021.09}\\
+{\em RWTH Aachen}\\
+During the semester-long course on iterative solvers, we programmed Multigrid solvers along with Krylov based linear system solvers for sparse matrices: GMRES (Generalized Minimum Residual) and Conjugated Gradients. We also implemented Lanczos and Power Iteration methods to compute dominant eigenvalue for big symmetric positive matrices. These implementations were done independently using vanilla Python code without computational libraries.
+
+{\bf Application Development Analyst} \hfill {\em 2020.09 - 2020.12}\\
+{\em Accenture Technology Center, Bengaluru}\\
+During my stint as Application Development Analyst at Accenture, I learnt a great deal about software delivery methods and programming languages like C++, Java and Python. 
+
+{\bf Simulation of Mold Filling in LPIM (MITACS Scholar)} \hfill {\em 2019.05 - 2019.08}\\
+{\em Ecole Technologie Superieure, Montreal}\\
+As a summer research intern, I worked on optimizing LPIM injection stage for metallic feedstock using FEM simulations and experimentation. I also worked on an initial layout of a new viscosity model that accurately captured viscosity behaviour for our application. Gained experience in Moldflow, AutoCAD, MATLAB, feedstock preparation.
+
+{\bf Phase Field Modeling of Ternary System} \hfill {\em 2018.11 - 2019.04}\\
+{\em National Institute of Technology, Warangal}\\
+During this semester-long bachelor project, I built a simulation routine to study growth kinetics of precipitates in a hypothetical ternary alloy system. It was based on phase field modeling using semi-implicit spectral formulation and written in C using FFT libraries.
+
+%{\bf Simulations for Additive Manufactured HEAs} \hfill {\em 2021.04 - 2021.06}\\
+%{\em IEHK Steel Institute, Aachen}\\
+%As a research student, I aided PhD research work on development of additive manufactured high-entropy alloys. Specifically, I worked with MICRESS simulations, literature review and MATLAB scripting for characterizing pores in microstructure images. 
+
+%{\bf Friction Stir Welding of AA2219 (Bachelor's Thesis)} \hfill {\em 2019.09 - 2020.05}\\
+%Worked with AA2219 Aluminium alloy to experimentally find optimum FSW parameters for welding thin sheets of 3mm thickness. Analysed the effects of process parameters on microstructural and mechanical properties by conducting tensile and hardness tests along with SEM/Optical study. \\
+
+%\\{\bf Self-Healing Polymer}\hfill{\em 2017.05 - 2017.07} \\
+%As a research intern at {\em \underline {IIT Ropar}}, worked on synthesis and characterization of imine-linked covalent organic frameworks (COFs). These molecules were added into PDMS to form a composite, which exhibited self-healing property due to the reversible nature of the imine linkages. Gained experience in characterization techniques like Nuclear Magnetic Resonance (NMR) and Mass Spectroscopy.\\
+
+
+\end{rSection}
+
+
+
+%--------------------------------------------------------------------------------
+%-----------------------------------------------------------------------------------------------
+
+
+%\begin{newpage}
+
+
+
+\begin{rSection}{Awards and Honors} \itemsep -3pt
+\item Recipient of full scholarship to attend Machine Learning Summer School 2022 in Krakow, Poland
+\item Recipient of Late Pendyala Upendra Gold Medal 2020 for academic excellence in BTech degree
+\item Honored by Indian Institute of Metals, Hyderabad chapter, for academic excellence in BTech degree
+\item Recipient of MITACS 2019 scholarship to pursue research at ETS Montreal \hfill 
+\item Recipient of NIT Warangal Merit Scholarship 2016, 2017, 2018, 2019 (Full Tuition Award)
+\item Recipient of OP Jindal Engineering and Management Scholarship 2018, 2019 \hfill 
+\item Recipient of Central Scheme National Scholarship 2016, 2017, 2018 \hfill 
+
+
+\end{rSection}
+
+%----------------------------------------------------------------------------------------
+%----------------------------------------------------------------------------------------
+
+%\begin{rSection}{Training}
+%{\bf Co-Humanistic Design Workshop at LV Prasad Eye Institute}\hfill{\em 2019.01}\\
+%Workshop on designing solutions for the visually impaired (VI). Mentored by Dr. Kyle Keane. Designed prototypes of drawing tools for the VI. \\
+%\\{\bf Internship at Vishakhapatnam Steel Plant}\hfill{\em 2018.07}\\
+%Two-weeks training program at the plant. Gained insight into the working of DL sintering machine, Blast Furnace, LD converters, Rolling Mills.
+
+%\end{rSection}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%\begin{rSection}{Conference}
+%{\bf Technical Meet: Indian Institute of Metals, Paloncha Chapter}\hfill{\em 2018.10}\\
+%Gave a talk on current methods of Ironmaking and proposed an alternative process for cost and environmental friendly production using Iron and Coal fines. 
+
+%\end{rSection}
+
+
+
+\begin{rSection}{Volunteering}
+
+{\bf Project Aakaar: Making geometry accessible to visually impaired}\hfill {\em 2019.01 - Present}\\
+Started as a bachelor's project at the makerspace of NIT Warangal, Project Aakaar has expanded into a global network of designers, thinkers, managers, and engineers, with the common goal of making technical education accessible in the special schools of developing countries. \\ 
+
+{\bf Innovation Garage: Makerspace in NIT Warangal}\hfill{\em 2018.03 - 2020.05}\\
+As a student volunteer, performed various technical, leadership and mentorship roles.  Organized Ideathon, an event to help students explore their ideas under expert mentorship from IIT Bombay; saw a participation of 100+ students.
+
+\end{rSection}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+% Extra Curricular
+%----------------------------------------------------------------------------------------
+%\begin{rSection}{Extracurriculars}
+%\begin{itemize}
+%    \item Event Curator at TEDx NITW 2017
+%    \item Executive Member at Quiz Club NIT Warangal (2017-18)
+%    \item Executive Member at SPICMACAY NITW (2017-18) 
+%    \item Pastime activities: Long distance running, Playing guitar
+%\end{itemize}
+
+
+%\end{rSection}
+
+
+%\end{newpage}
+\end{document}
