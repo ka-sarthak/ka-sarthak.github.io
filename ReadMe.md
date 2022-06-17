@@ -47,7 +47,7 @@ bundle init
 bundle exec jekyll serve --livereload
 ```
 
-Finally, add your work to the website, commit and push it to your public repository named \<your-git-username>.github.io, and GitHub will automatically pick your code to host the website on https://\<your-git-username>.github.io.
+Finally, add your work to the website, commit and push it to your public repository named <br>```<<your-git-username>>.github.io```, and GitHub will automatically pick your code to host the website on <br>```https://<<your-git-username>>.github.io```.
 
 
 ### Voila! You have your website!
