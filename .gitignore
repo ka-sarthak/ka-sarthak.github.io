@@ -1,0 +1,14 @@
+# ignore ALL these files
+*.log
+.DS_Store
+
+# ignore for latex automatically generated files
+*.aux
+*.fdb_latexmk
+*.fls
+*.out
+*.synctex.gz
+
+# ignore ALL files in this directory
+temp/
+.jekyll-cache/
