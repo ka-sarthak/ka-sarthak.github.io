@@ -7,30 +7,48 @@
         <base target="_blank">
     </head>
     <body>
-        <nav class="header">
-    <table style="width: 100%;">
+        <nav class="navbar">
+    <!--  -->
+    <!--  -->
+    <div class="nav-name"> 
+        <a href="/" target="_self"><b>Sarthak </b>Kapoor</a>
+    </div>
+    <ul class="nav-links">
+        <input type="checkbox" id="checkbox_toggle"/>
+        <label for="checkbox_toggle" class="nav-checkbox">&#9776</label>
+        
+        <div class="nav-menu">
+            <li><a href="/" target="_self">About</a></li>
+            <li><a href="/projects.html" target="_self">Projects</a></li>
+            <li><a href="/blog.html" target="_self">Blog</a></li>
+        </div>
+    </ul>
+
+
+
+<!--    <table style="width: 100%;">
         <tr>
             <td>
                 <div>
                     
-                    <div style="float: left; font-size: x-large;"> 
+                    <div style="float: left; font-size: 200%;"> 
                         <a href="/index.html" target="_self"><b>Sarthak </b>Kapoor</a>
                     </div>
                     
                     <div style="float: right;">
-                        <table style="font-size: large;">
+                        <table style="font-size: 150%;">
                             <tr>
                                 <td style="vertical-align: bottom;"><a href="/" target="_self">About</a></td>
                                 <td><a href="/projects.html" target="_self">Projects</a></td>
-                                <td><a href="/blog.html" target="_self">Blog</a></td>
+                                <td><a href="/blog.html" target="_self">Blog</a></td>-->    
                                 <!--<td><a href="/publications.html" target="_self">Publications</a></td>-->
-                            </tr>
+ <!--                           </tr>
                         </table>
                     </div>
                 </div>
             </td>
         </tr>
-        
+-->      
     </table>
 </nav>
 
@@ -66,8 +84,7 @@
                 <div class="title">Detecting gravity waves in atmospheric temperature data</div>
                 <div style="margin-bottom: 2%;">In collaboration with <a href="https://www.researchgate.net/profile/Joern-Ungermann/2">Dr. Joern Ungermann</a> from Forschungszentrum Jülich</div>
                 As a part of week-long study excursion, I worked with an interdisciplinary team of master students on developing an algorithm to detect gravity wave events which are essential for reliable weather predictions. These waves were modelled as Morlet wavelets at given point, whose parameters were found using FFTs and non-convex optimization. The code was written in Python using NumPy, SciPy, JAX libraries.
-                <br>
-                <a href="/assets/documents/CAMMP report.pdf">Report</a>
+
             </td>
         </tr>
     </table>

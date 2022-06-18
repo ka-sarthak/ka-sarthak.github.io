@@ -1,4 +1,6 @@
 body {
+    display: flex;
+    flex-direction: column;
     max-width: 960px;
     margin: auto;
     background-color:white;
@@ -15,18 +17,76 @@ a:hover{
     text-decoration: underline; 
 }
 li{
-    margin: 1% 0%
+    margin: 1% 0%;
 }
 img{
     max-width: 100%;
     margin: auto;
 }
 
+.navbar{
+    max-width: 960px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 20px 0px 20px;
+    position:fixed;top:0;right:0;left:0;
+    border-width: 0px 0px 1px 0px; 
+    border-style: solid;
+    border-color: #dcdcdc;
+    background-color: white;
+    opacity: 0.97;
+}
+.nav-name{
+    font-size: 24px;
+}
+.nav-menu{
+    display: flex;
+    gap: 1em;
+    font-size: 18px;
+}
+.nav-menu li{
+    padding: 5px 14px;
+    list-style: none;
+}
 
+input[type=checkbox]{
+    display: none;
+}
+.nav-checkbox{
+    display: none;
+    font-size: 24px;
+    user-select: none;
+}
+@media (max-width:768px) {
+    .nav-checkbox{
+        display: block;
+    }
+    .nav-menu { 
+        display:none;
+        position: absolute;
+        background-color: white;
+        opacity: 0.97;
+        top: 45px;
+        right: 0;
+        left: 0;
+        text-align: center;
+        padding: 16px 0;
+        border-width: 0px 0px 1px 0px; 
+        border-style: solid;
+        border-color: #dcdcdc;
+       }
+    input[type=checkbox]:checked ~ .nav-menu{
+        display: block;
+        transition: 0.3s ease;
+    }
+}
+
+/*
 .header{
     position:fixed;top:0;right:0;left:0;
     max-width: 960px;
-    height: 7%;
     margin: auto;
     padding-top: 1%;
     background-color: white;
@@ -43,6 +103,8 @@ img{
 .header td{
     padding: 5px;
 }
+*/
+
 .pagecontent{
     padding-top: 50px;
     padding-bottom: 10px;
@@ -77,9 +139,11 @@ img{
     margin: auto;
     text-align: center;
     padding: 1px;
-    position: fixed;
-    bottom:0;left:0;right:0;height:30px;
-    font-size: small;
+    margin-top: auto;
+    /* position:relative; */
+    bottom:0;left:0;right:0;
+    /* height:30px; */
+    font-size: 12px;
 }
 .footer a {
     color: #FAFAFA;
