@@ -5,12 +5,10 @@ heading: Blog
 ---
 
 <div class="blog-content">
-<ul style="list-style: none;">
-    {% for post in site.posts %}
-      <li>
-        <h2><a href="{{ post.url }}" target="_self">{{ post.title }}</a></h2>
-        {{ post.excerpt }}
-      </li>
-    {% endfor %}
-  </ul>
+  {% for post in site.posts %}
+    <div class="blog-entry">
+      <h2><a href="{{ post.url }}" target="_self">{{ post.title }}</a></h2>
+      {{ post.excerpt }}
+    </div>
+  {% endfor %}
 </div>

@@ -8,9 +8,9 @@
     </head>
     <body>
         {% include navigation.html %}
-        <div class="pagecontent">
+        <div class="page-content">
             {% if page.heading!="About"%}
-            <div style="font-size: xx-large; margin-bottom: 3%; margin: auto;">{{page.heading}}</div>
+            <div class="title">{{page.heading}}</div>
             {% endif%}
             {{content}}
         </div>
