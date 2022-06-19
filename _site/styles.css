@@ -220,23 +220,17 @@ img{
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
-        border: #adadad;
-        border-style: dotted;
     }
     .intro-pic{
 
         float: none;
         width: 100%;
         max-width: 500px;
-        border: #adadad;
-        border-style: dotted;
         /* max-width: 30%; */
         padding: 5%;
     }
     .profile-pic{
-        margin: auto;  
-        border: #adadad;
-        border-style: dotted;
+        margin: auto; 
     }
     .whats-new{
         max-width: 100%;
