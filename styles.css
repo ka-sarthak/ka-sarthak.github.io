@@ -26,16 +26,18 @@ body {
     opacity: 0.97;
 }
 .nav-name{
-    font-size: x-large;
+    font-size: xx-large;
 }
 .nav-menu{
     display: flex;
+    flex-wrap: nowrap;
+    align-items: stretch;
     gap: 1em;
-    font-size: large;
+    margin: auto;
+    height: 500%;
 }
-.nav-menu li{
-    padding: 5px 14px;
-    list-style: none;
+.nav-menu .nav-menu-item{
+    font-size: x-large;
 }
 
 input[type=checkbox]{
@@ -79,17 +81,9 @@ img{
     max-width: 100%;
     margin: auto;
 }
-.profile-pic{
-    width: 225px; height: 225px;
-    max-width: 250px;
-    overflow: hidden; 
-    border-radius: 50%;
-    margin: auto;  
-}
 .contact{
     margin-top: 15px;
     text-align: center;
-    font-size: small;
 }
 .page-content{
     padding-top: 50px;
@@ -97,7 +91,7 @@ img{
     margin: 5%;
 }
 .page-content .title{
-    font-size: x-large;
+    font-size: xx-large;
     margin-top: 20px;
     margin-bottom: 20px;
 }
@@ -109,7 +103,11 @@ img{
 }
 .intro-pic{
     float: right;
-    padding: 30px;
+    max-width: 30%;
+    padding: 5%;
+}
+.profile-pic{
+    margin: auto;  
 }
 .whats-new{
     max-width: 95%;
@@ -184,32 +182,61 @@ img{
     .nav-checkbox{
         display: block;
     }
+    .navbar{
+        height: 10%;
+    }
+
+    .nav-menu .nav-menu-item{
+        width: 100%;
+    }
     .nav-menu { 
         display:none;
         position: absolute;
+        justify-content: center;
+        flex-wrap: wrap;
+
         background-color: white;
         opacity: 0.98;
-        top: 45px;
+        top:4em;
         right: 0;
         left: 0;
         text-align: center;
         font-size: large;
-        padding: 16px 0;
+        padding: 20% 0 0 0;
         border-width: 0px 0px 1px 0px; 
         border-style: solid;
         border-color: #dcdcdc;
        }
     input[type=checkbox]:checked ~ .nav-menu{
-        display: block;
+        display: flex;
         transition: 0.3s ease;
     }
 
     .page-content .title{
         text-align: center;
     }
-   
+
+    .intro{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        border: #adadad;
+        border-style: dotted;
+    }
     .intro-pic{
+
         float: none;
+        width: 100%;
+        max-width: 500px;
+        border: #adadad;
+        border-style: dotted;
+        /* max-width: 30%; */
+        padding: 5%;
+    }
+    .profile-pic{
+        margin: auto;  
+        border: #adadad;
+        border-style: dotted;
     }
     .whats-new{
         max-width: 100%;
