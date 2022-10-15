@@ -1,0 +1,15 @@
+[0] Config.pm:307> INFO - This is Biber 2.17
+[1] Config.pm:310> INFO - Logfile is 'CV_concise.blg'
+[102] biber-darwin:340> INFO - === Fri Aug 26, 2022, 14:39:13
+[124] Biber.pm:418> INFO - Reading 'CV_concise.bcf'
+[235] Biber.pm:972> INFO - Found 1 citekeys in bib section 0
+[251] Biber.pm:4383> INFO - Processing section 0
+[272] Biber.pm:4574> INFO - Looking for bibtex file 'references.bib' for section 0
+[273] bibtex.pm:1713> INFO - LaTeX decoding ...
+[276] bibtex.pm:1518> INFO - Found BibTeX data source 'references.bib'
+[326] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[326] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[326] Biber.pm:4203> INFO - Sorting list 'nty/global//global/global' of type 'entry' with template 'nty' and locale 'en-US'
+[326] Biber.pm:4209> INFO - No sort tailoring available for locale 'en-US'
+[329] bbl.pm:654> INFO - Writing 'CV_concise.bbl' with encoding 'UTF-8'
+[330] bbl.pm:757> INFO - Output to CV_concise.bbl
