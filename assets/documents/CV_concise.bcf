@@ -2344,8 +2344,12 @@
     <bcf:datasource type="file" datatype="bibtex" glob="false">references.bib</bcf:datasource>
   </bcf:bibdata>
   <bcf:section number="0">
-    <bcf:citekey order="1">Cote2021</bcf:citekey>
-    <bcf:citekey order="2">Cote2021</bcf:citekey>
+    <bcf:citekey order="1">kapoor2022surrogate</bcf:citekey>
+    <bcf:citekey order="2">mlss2022</bcf:citekey>
+    <bcf:citekey order="3">cote2021</bcf:citekey>
+    <bcf:citekey order="4">kapoor2022surrogate</bcf:citekey>
+    <bcf:citekey order="5">mlss2022</bcf:citekey>
+    <bcf:citekey order="6">cote2021</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="nty">

@@ -1,15 +1,48 @@
-[0] Config.pm:307> INFO - This is Biber 2.17
-[1] Config.pm:310> INFO - Logfile is 'CV_concise.blg'
-[102] biber-darwin:340> INFO - === Fri Aug 26, 2022, 14:39:13
-[124] Biber.pm:418> INFO - Reading 'CV_concise.bcf'
-[235] Biber.pm:972> INFO - Found 1 citekeys in bib section 0
-[251] Biber.pm:4383> INFO - Processing section 0
-[272] Biber.pm:4574> INFO - Looking for bibtex file 'references.bib' for section 0
-[273] bibtex.pm:1713> INFO - LaTeX decoding ...
-[276] bibtex.pm:1518> INFO - Found BibTeX data source 'references.bib'
-[326] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
-[326] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[326] Biber.pm:4203> INFO - Sorting list 'nty/global//global/global' of type 'entry' with template 'nty' and locale 'en-US'
-[326] Biber.pm:4209> INFO - No sort tailoring available for locale 'en-US'
-[329] bbl.pm:654> INFO - Writing 'CV_concise.bbl' with encoding 'UTF-8'
-[330] bbl.pm:757> INFO - Output to CV_concise.bbl
+This is BibTeX, Version 0.99d
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: CV_concise.aux
+Reallocating 'name_of_file' (item size: 1) to 11 items.
+Reallocating 'name_of_file' (item size: 1) to 8 items.
+The style file: apalike.bst
+Database file #1: references.bib
+You've used 3 entries,
+            1935 wiz_defined-function locations,
+            488 strings with 4631 characters,
+and the built_in function-call counts, 1269 in all, are:
+= -- 111
+> -- 74
+< -- 0
++ -- 27
+- -- 26
+* -- 109
+:= -- 231
+add.period$ -- 9
+call.type$ -- 3
+change.case$ -- 28
+chr.to.int$ -- 2
+cite$ -- 3
+duplicate$ -- 50
+empty$ -- 86
+format.name$ -- 29
+if$ -- 243
+int.to.chr$ -- 2
+int.to.str$ -- 0
+missing$ -- 3
+newline$ -- 18
+num.names$ -- 9
+pop$ -- 36
+preamble$ -- 1
+purify$ -- 28
+quote$ -- 0
+skip$ -- 26
+stack$ -- 0
+substring$ -- 48
+swap$ -- 3
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 18
+warning$ -- 0
+while$ -- 7
+width$ -- 0
+write$ -- 39

@@ -1,74 +1,27 @@
-% $ biblatex auxiliary file $
-% $ biblatex bbl format version 3.2 $
-% Do not modify the above lines!
-%
-% This is an auxiliary file used by the 'biblatex' package.
-% This file may safely be deleted. It will be recreated by
-% biber as required.
-%
-\begingroup
-\makeatletter
-\@ifundefined{ver@biblatex.sty}
-  {\@latex@error
-     {Missing 'biblatex' package}
-     {The bibliography requires the 'biblatex' package.}
-      \aftergroup\endinput}
-  {}
-\endgroup
+\begin{thebibliography}{}
 
+\bibitem[Côté et~al., 2021]{cote2021}
+Côté, R., Azzouni, M., Ghanmi, O., \textbf{Kapoor}, S., and Demers, V.
+  (2021).
+\newblock \href{https://doi.org/10.1080/00325899.2020.1852492}{Impact of
+  rheological model on numerical simulation of low-pressure powder injection
+  moulding}.
+\newblock {\em Powder Metallurgy}, 64(1):8--16.
 
-\refsection{0}
-  \datalist[entry]{nty/global//global/global}
-    \entry{Cote2021}{article}{}
-      \name{author}{5}{}{%
-        {{hash=5253227f03d18eb8838229c2661a827a}{%
-           family={Côté},
-           familyi={C\bibinitperiod},
-           given={Raphaël},
-           giveni={R\bibinitperiod}}}%
-        {{hash=13698286b07d13a820d89edb2b8d01bf}{%
-           family={Azzouni},
-           familyi={A\bibinitperiod},
-           given={Mohamed},
-           giveni={M\bibinitperiod}}}%
-        {{hash=7c8a20fa2b2fdd23771813b1989eeebf}{%
-           family={Ghanmi},
-           familyi={G\bibinitperiod},
-           given={Oussema},
-           giveni={O\bibinitperiod}}}%
-        {{hash=d439469c548fec62ed1a4ee100e46d2c}{%
-           family={Kapoor},
-           familyi={K\bibinitperiod},
-           given={Sarthak},
-           giveni={S\bibinitperiod}}}%
-        {{hash=8d1d0945f1a1dec58724b0c0aad525c6}{%
-           family={Demers},
-           familyi={D\bibinitperiod},
-           given={Vincent},
-           giveni={V\bibinitperiod}}}%
-      }
-      \list{publisher}{1}{%
-        {Taylor & Francis}%
-      }
-      \strng{namehash}{32242079f29769484d3b888f5d56d254}
-      \strng{fullhash}{32242079f29769484d3b888f5d56d254}
-      \strng{bibnamehash}{32242079f29769484d3b888f5d56d254}
-      \strng{authorbibnamehash}{32242079f29769484d3b888f5d56d254}
-      \strng{authornamehash}{32242079f29769484d3b888f5d56d254}
-      \strng{authorfullhash}{32242079f29769484d3b888f5d56d254}
-      \field{sortinit}{C}
-      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{Powder Metallurgy}
-      \field{number}{1}
-      \field{title}{Impact of rheological model on numerical simulation of low-pressure powder injection moulding}
-      \field{volume}{64}
-      \field{year}{2021}
-      \field{pages}{8\bibrangedash 16}
-      \range{pages}{9}
-    \endentry
-  \enddatalist
-\endrefsection
-\endinput
+\bibitem[\textbf{Kapoor} et~al., 2022a]{mlss2022}
+\textbf{Kapoor}, S., Mianroodi, J.~R., and Svendsen, B. (2022a).
+\newblock
+  \href{https://ka-sarthak.github.io/assets/documents/MLSS\%20poster.pdf}{Correlative
+  modeling of microstructure and stress in solid mechanics using Machine
+  Learning}.
+\newblock In {\em MLSS 2022 Poster Session, Jagiellonian University, Poland}.
 
+\bibitem[\textbf{Kapoor} et~al., 2022b]{kapoor2022surrogate}
+\textbf{Kapoor}, S., Mianroodi, J.~R., Svendsen, B., Khorrami, M., and Siboni,
+  N. (2022b).
+\newblock \href{https://openreview.net/forum?id=wdKIMZ0qLYu}{Surrogate modeling
+  of stress fields in periodic polycrystalline microstructures using {U-Net}
+  and {Fourier} neural operators}.
+\newblock In {\em NeurIPS 2022 AI for Science: Progress and Promises}.
+
+\end{thebibliography}
