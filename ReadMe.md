@@ -1,11 +1,11 @@
 # Some helpful comments
 
 Personal website is a great way to showcase your interests, work, and your creativity, all in one place. 
-To do so for yourself is fairly simply. Use this jekyll-based template-cum-website as a starting point for your own website and host it on GitHub pages for free. 
+To do so for yourself is fairly simple. Use this jekyll-based template-cum-website as a starting point for your own website and host it on GitHub pages for free. 
 
 You might find the following steps helpful to fork this repo and start adding your stuff to it. Much of these steps are inspired from <a href="https://jekyllrb.com/docs/" target="_blank">here</a>.
 
-## Necessary installations
+## Necessary installations for macOS 
 
 1. Installing Brew - ```brew``` comes handy to install packages in MacOS. Use it to install a bunch of following packges.
 
