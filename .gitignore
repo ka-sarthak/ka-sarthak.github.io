@@ -8,6 +8,11 @@
 *.fls
 *.out
 *.synctex.gz
+*.tex
+*.bbl
+*.blg
+*.cls
+*.bib
 
 # ignore ALL files in this directory
 temp/
