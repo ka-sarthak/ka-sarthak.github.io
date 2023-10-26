@@ -1,0 +1,194 @@
+\documentclass{cv}
+\usepackage{xcolor}
+\usepackage{multicol}
+\usepackage{bibentry}
+\usepackage{natbib}
+\usepackage{graphicx}
+\usepackage[]{fancyhdr}
+\usepackage{tikz}
+\RequirePackage{fontawesome}
+
+% \usepackage{tgbonum}
+% \usepackage[maxnames=99]{biblatex}
+\usepackage[margin=0.8in,
+  tmargin=0.5in,
+  bmargin=0.5in,
+  includehead,
+  headsep=0.2in,
+  headheight=0.3in]{geometry} % Document margins
+\usepackage[colorlinks = true,
+  linkcolor = blue,
+  urlcolor  = magenta,
+  citecolor = blue,
+  anchorcolor = blue]{hyperref}
+\newcommand{\tab}[1]{\hspace{.2667\textwidth}\rlap{#1}}
+\newcommand{\itab}[1]{\hspace{0em}\rlap{#1}}
+\newcommand{\ExternalLink}{%
+    \tikz[x=1.2ex, y=1.2ex, baseline=-0.05ex]{% 
+        \begin{scope}[x=1ex, y=1ex]
+            \clip (-0.1,-0.1) 
+                --++ (-0, 1.2) 
+                --++ (0.6, 0) 
+                --++ (0, -0.6) 
+                --++ (0.6, 0) 
+                --++ (0, -1);
+            \path[draw, 
+                line width = 0.5, 
+                rounded corners=0.5] 
+                (0,0) rectangle (1,1);
+        \end{scope}
+        \path[draw, line width = 0.5] (0.5, 0.5) 
+            -- (1, 1);
+        \path[draw, line width = 0.5] (0.6, 1) 
+            -- (1, 1) -- (1, 0.6);
+        }
+    }
+
+\begin{document}
+  \nobibliography{references}
+  \bibliographystyle{apalike}
+  
+  \pagestyle{fancy}
+  \fancyhf{}	% removes prior settings for header and footer
+  \fancyhead[L]{\fontsize{8}{8} \selectfont 
+  }
+  \fancyhead[R]{\fontsize{8}{8} \selectfont
+  }
+  \begin{center}{}
+    {\textsc{\LARGE Curriculum Vitae}}\\
+  \end{center}
+  \vspace{0.15in}
+  \hrule \vspace{0.5mm} \hrule\hrule
+  \vspace{0.1in}
+  
+
+  \begin{rSection}{Personal Information}
+    \begin{multicols}{2}
+    \begin{tabular}{|ll}
+      Full name: & Sarthak Kapoor\\
+      Links: & \href[]{https://github.com/ka-sarthak}{GitHub}{}, \href[]{https://scholar.google.com/citations?user=En481soAAAAJ&hl=en}{Google Scholar}\\
+      Languages: &  English (Professional proficiency), German (A1), Hindi (Native proficiency) \\
+      Date of birth: &  Nov. 1, 1997 \\ 
+      Nationality: &  India \\
+    \end{tabular}
+    \columnbreak
+    \end{multicols}
+  \end{rSection}
+
+  \begin{rSection}{Education}
+    \item {\bf RWTH Aachen University} \hfill {2020.11 - 2023.04}\\
+    MSc Simulation Sciences\\
+    Thesis: Correlative modeling of stress field with artificial neural networks
+    
+    \item {\bf National Institute of Technology, Warangal} \hfill {2016.08 - 2020.08} \\
+    BTech Metallurgical and Materials Engineering\hfill \\
+  \end{rSection}
+
+  \begin{rSection}{Work Experience}
+    \item{\bf Data Scientist} \hfill {2023.11 - Present}\\
+    {\em FAIRmat, Humboldt University, Berlin}\\
+    Developing data science methodologies in the field of material synthesis.
+
+    \item {\bf Wissenschaftliche Hilfskraft} \hfill {2021.05 - 2023.09}\\
+    {\em Chair for Material Mechanics, RWTH Aachen}\\
+    Explored innovative ML architectures to learn non-linear computational models of physical systems. 
+    Trained models (U-Net, FNO, cGAN) for stress prediction in microstructures which were 1000$\times$ faster than computation of numerical solution.
+    Presented the findings at NeurIPS 2022 AI4Science workshop.
+    
+    \item{\bf Machine Learning Developer Intern} \hfill {2022.12 - 2023.05}\\
+    {\em Ericsson Eurolab, Herzogenrath}\\
+    Worked in ML-powered anomaly detection and classification system for log files. 
+    Developed an interactive React-based GUI for visualizing millions of log anomaly scores, which was 100$\times$ faster than the previous version.
+    Performed data exploration and developed modeling strategies for data-driven resource allocation in telecom services. 
+    
+    \item {\bf Application Development Analyst} \hfill {2020.09 - 2020.12}\\
+    {\em Accenture Technology Center, Bengaluru}\\
+    Worked in software and ML-driven solution development. 
+    Participated in tech-oriented case studies and software development workshops.
+    
+    \item {\bf MITACS Summer Intern} \hfill {2019.05 - 2019.08}\\
+    {\em Département de génie mécanique, ETS Montreal}\\
+    Implemented numerical models for material flow in low-pressure metallic-powder injection molding using Finite Element methods and contributed to experimental verification.
+    Designed and verified data-driven models for constitutive relations. Contributed towards a journal publication.
+  \end{rSection}
+
+  
+  
+  \newpage
+  \begin{rSection}{Technical Projects}
+    \item {\bf Phase field modeling of chemomechanical binary system} \hfill {2022.04 - 2022.08}\\
+    {\em Material Mechanics, RWTH Aachen}\\
+    Implemented Cahn-Hilliard and Allen-Cahn models to simulate precipitate growth dynamics under the influence of chemical and mechanical energies. 
+    Used Python standard library.
+    
+    \item {\bf Detecting gravity waves in atmospheric temperature data} \hfill {2022.06}\\
+    {\em Chair for Applied and Computational Mathematics, RWTH Aachen}\\
+    Implemented an FFT-based algorithm to detect gravity waves as wave packets in 2D temperature data. 
+    Lowered time complexity to O(n $\log$ n) in comparison to the previous method.
+    Used Python with SciPy, JAX.
+    
+    \item {\bf Tracking local optima in dynamic systems}\hfill {2021.10 - 2022.02}\\
+    {\em Chair for Software and Tools for Computational Engineering, RWTH Aachen}\\
+    Developed local-optima-tracking software for dynamic time-evolving functions. 
+    Tracked the local optima to reduce the need for global optima search from every time step to coarser time intervals. Achieved 10$\times$ lower wall time.
+    Used C++ with dco/c++ library.
+    
+    \item {\bf Fast iterative solvers for linear systems}\hfill {2021.04 - 2021.09}\\
+    {\em AICES, RWTH Aachen}\\
+    Implemented multigrid solvers, Krylov-based linear system solvers (GMRES and CG) and eigensolver algorithms (Lanczos and Power Iteration). 
+    Used Python standard library.
+    
+    
+    % \item {\bf Phase field modeling of ternary system} \hfill {2018.11 - 2019.04}\\
+    % {\em Metallurgical and Materials Engineering, NIT Warangal}\\
+    % Developed a semi-implicit spectral PFM routine to study the growth kinetics of precipitates in a hypothetical ternary system. (C with FFT library)
+  \end{rSection}
+  
+  \begin{rSection}{Skills} \itemsep -4pt 
+    \item \textbf{Machine Learning and data analysis} \textemdash  Python with PyTorch, TensorFlow, Scikit-Learn, Pandas, NumPy, SciPy, JAX
+    \item \textbf{Software development} \textemdash Python, C++, SQL, MATLAB, OpenMP, MPI, DCO
+    \item \textbf{Web Development} \textemdash JavaScript, React, Jekyll
+    \item \textbf{Automated CI/CD workflows} \textemdash git, Kubernetes
+  \end{rSection}
+
+  \begin{rSection}{Conferences} \itemsep -4pt 
+    \item FAIRmat meets domain experts, Arnsberg, October 2023
+    \item NeurIPS 2022, New Orleans, November 2022 (virtually)
+    \item Machine Learning Summer School, Krakow, June 2022
+  \end{rSection}
+  
+  \begin{rSection}{Communication}% \itemsep -4pt
+    \item \bibentry{kapoor2022comparison}
+    \item \bibentry{kapoor2022surrogate}
+    \item \bibentry{mlss2022}
+    \item \bibentry{cote2021}
+  \end{rSection}
+  
+  \begin{rSection}{Awards} \itemsep -4pt 
+    \item Full scholarship to attend Machine Learning Summer School 2022, Krakow
+    \item Late Pendyala Upendra Gold Medal 2020 for academic excellence in BTech degree
+    % \item Honored by Indian Institute of Metals, Hyderabad chapter, for academic excellence in BTech degree
+    \item MITACS 2019 scholarship to pursue research at ÉTS Montreal \hfill 
+    \item NIT Warangal Merit Scholarship (Full Tuition Award)
+    \item OPJEMS award 2018 \& 2019 \hfill 
+    % \item Recipient of Central Scheme National Scholarship 2016, 2017, 2018 \hfill 
+  \end{rSection}
+  
+  \begin{rSection}{Volunteering}% \itemsep -4pt 
+    \item {\bf Project Aakaar: Making geometry accessible to visually impaired}\\%\hfill {\em 2019.01 - Present}\\
+    Started an assistive edu-tech project at the maker space of NIT Warangal to increase the participation of visually impaired students in STEM. Led the product design and established a strong network of designers, engineers, and researchers from MIT. \href[]{https://misti.mit.edu/humanistic-design-workshops-india-impact-and-reach}{Media coverage}.
+  \end{rSection}
+
+  \begin{rSection}{Referees}
+    \item Prof. Dr. Bob Svendsen \href{https://www.cmm.rwth-aachen.de/cms/CMM/Forschung/Mitarbeiter/Leitung/~glyz/Bob-Svendsen/?allou=1}{\faExternalLink}\\
+    {Chair for Material Mechanics, RWTH}\\
+    {Max-Plank-Institut for Iron Research, Düsseldorf}\\
+    \href{mailto:b.svendsen@mpie.de}{b.svendsen@mpie.de}
+
+    \item Dr. Jaber Rezaei Mianroodi \href{https://www.mpie.de/person/59480/3079071}{\faExternalLink}\\
+    {Ex-group leader at Max-Plank-Institut for Iron Research, Düsseldorf}\\
+    {Digital R\&D, Covestro AG}\\
+    \href{mailto:j.mianroodi@mpie.de}{j.mianroodi@mpie.de}
+  \end{rSection}
+
+  \end{document}
