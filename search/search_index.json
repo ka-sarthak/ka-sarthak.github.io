@@ -1,1 +1,1 @@
-{"config":{"indexing":"full","lang":["en"],"min_search_length":3,"prebuild_index":false,"separator":"[\\s\\-]+"},"docs":[{"location":"","text":"Welcome to my website More coming soon","title":"Welcome to my website"},{"location":"#welcome-to-my-website","text":"More coming soon","title":"Welcome to my website"}]}
+{"config":{"lang":["en"],"separator":"[\\s\\-]+","pipeline":["stopWordFilter"]},"docs":[{"location":"","title":"Welcome to my website","text":"<p>More coming soon</p>"}]}
